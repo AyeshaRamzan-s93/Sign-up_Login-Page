@@ -30,7 +30,7 @@ The UI allows users to:
 5. db.json # Local database used by json-server
    
 
- Step 1:  ** Create db.json **
+# Step 1: Create db.json 
 
 Create a file called db.json in the root directory:
 
@@ -40,7 +40,7 @@ Create a file called db.json in the root directory:
   
 }
 
-** Step 2. Start the json-server **
+# Step 2. Start the json-server 
 
 In the project directory, run:
 
@@ -49,7 +49,7 @@ json-server --watch db.json --port 3000
 It will run at:
 http://localhost:3000
 
-** Step 3: Open the Frontend **
+# Step 3: Open the Frontend 
    
 Just open index.html in your browser directly (or host it via VS Code Live Server or any static server).
 
