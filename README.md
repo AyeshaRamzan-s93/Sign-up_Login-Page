@@ -8,7 +8,7 @@ The UI allows users to:
 - Automatically redirect to a dashboard on successful login/signup
 - Prevent duplicate registration
 - Switch between sign-up and login modes dynamically
-- Handle form field resets and validation
+- Handle form field resets and validation_
 
 ---
 
@@ -23,14 +23,13 @@ The UI allows users to:
 
 ##  Project Structure
 
-project/
-│
-├── index.html # Main login/signup UI
-├── dashboard.html # Redirect page after successful login/signup
-├── style.css # Modern responsive styling
-├── script.js # All logic for form, toggle, login/signup
-├── db.json # Local database used by json-server
-└── README.md # You're here!
+
+-- index.html # Main login/signup UI
+-- dashboard.html # Redirect page after successful login/signup
+-- style.css # Modern responsive styling
+-- script.js # All logic for form, toggle, login/signup
+-- db.json # Local database used by json-server
+-- README.md # You're here!
 
 Step 1: Create db.json
 
@@ -39,34 +38,26 @@ Create a file called db.json in the root directory:
 {
   "users": []
 }
-2. Start the json-server
+
+Step 2. Start the json-server
 
 In the project directory, run:
-
 json-server --watch db.json --port 3000
-
 It will run at:
-
 http://localhost:3000
 
-4.  Open the Frontend
+Step 3: Open the Frontend
    
 Just open index.html in your browser directly (or host it via VS Code Live Server or any static server).
 
 ### Features
 
 Fully responsive layout
-
 Toggle between Login & Sign Up dynamically
-
 Form input validations
-
 Prevents duplicate user registration
-
 Redirects to a fun dashboard page
-
 Reset fields after submission/toggle
-
 Clean UI using Inter Google Font
 
 
