@@ -30,29 +30,6 @@ The UI allows users to:
 5. db.json # Local database used by json-server
    
 
-## Step 1: Create db.json 
-
-Create a file called db.json in the root directory:
-
-{
-
-  "users": [ ]
-  
-}
-
-## Step 2. Start the json-server 
-
-In the project directory, run:
-
-json-server --watch db.json --port 3000
-
-It will run at:
-http://localhost:3000
-
-## Step 3: Open the Frontend 
-   
-Just open index.html in your browser directly (or host it via VS Code Live Server or any static server).
-
 ### Features
 
 Fully responsive layout
@@ -68,6 +45,30 @@ Redirects to a fun dashboard page
 Reset fields after submission/toggle
 
 Clean UI using Inter Google Font
+
+## Live Demo
+
+Fronend is hosted on Github Pages
+
+https://ayesharamzan-s93.github.io/Sign-up_Login-Page/
+
+## You can Run Backend Locally 
+
+1. Clone this repository
+   
+   https://github.com/AyeshaRamzan-s93/Sign-up_Login-Page
+
+2. Navigate into the projects
+
+   cd Sign-up_Login-Page
+
+3. Install json-server if you haven't
+
+   npm install -g json-server
+
+5. Start the server
+
+   json-server --watch db.json --port 3000
 
 
 ##  Author
