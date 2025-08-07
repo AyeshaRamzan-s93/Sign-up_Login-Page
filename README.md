@@ -23,13 +23,12 @@ The UI allows users to:
 
 ##  Project Structure
 
-
--- index.html # Main login/signup UI
--- dashboard.html # Redirect page after successful login/signup
--- style.css # Modern responsive styling
--- script.js # All logic for form, toggle, login/signup
--- db.json # Local database used by json-server
--- README.md # You're here!
+1. index.html # Main login/signup UI
+2. dashboard.html # Redirect page after successful login/signup
+3. style.css # Modern responsive styling
+4. script.js # All logic for form, toggle, login/signup
+5. db.json # Local database used by json-server
+   
 
 Step 1: Create db.json
 
@@ -42,7 +41,9 @@ Create a file called db.json in the root directory:
 Step 2. Start the json-server
 
 In the project directory, run:
+
 json-server --watch db.json --port 3000
+
 It will run at:
 http://localhost:3000
 
@@ -53,11 +54,17 @@ Just open index.html in your browser directly (or host it via VS Code Live Serve
 ### Features
 
 Fully responsive layout
+
 Toggle between Login & Sign Up dynamically
+
 Form input validations
+
 Prevents duplicate user registration
+
 Redirects to a fun dashboard page
+
 Reset fields after submission/toggle
+
 Clean UI using Inter Google Font
 
 
