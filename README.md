@@ -30,7 +30,7 @@ The UI allows users to:
 5. db.json # Local database used by json-server
    
 
-** Step 1: Create db.json **
+ Step 1:  ** Create db.json **
 
 Create a file called db.json in the root directory:
 
