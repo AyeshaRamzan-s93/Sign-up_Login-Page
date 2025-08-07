@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "242c",
+      "name": "Zunaira",
+      "email": "zuni123@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "525c",
+      "name": "Sadia",
+      "email": "sadia123@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "d8ab",
+      "name": "Hadia",
+      "email": "hadia456@gmail.com",
+      "password": "abc"
+    },
+    {
+      "id": "85ad",
+      "name": "Hadia",
+      "email": "hadia456@gmail.com",
+      "password": "abc"
+    },
+    {
+      "id": "56c9",
+      "name": "Ayesha",
+      "email": "ayesha123@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "cece",
+      "name": "Aima",
+      "email": "aima@123.com",
+      "password": "xyz"
+    },
+    {
+      "id": "df65",
+      "name": "Hadiaaa",
+      "email": "hadiaaa456@gmail.com",
+      "password": "10"
+    },
+    {
+      "id": "1389",
+      "name": "Sadia",
+      "email": "sadiaaaaaaa123@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "ed99",
+      "name": "sam",
+      "email": "sam123@gmail.com",
+      "password": "samsam"
+    }
+  ]
+}
